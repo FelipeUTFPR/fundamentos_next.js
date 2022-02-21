@@ -1,13 +1,15 @@
 import styles from '../styles/Estiloso.module.css'
-import Link from 'next/link'
+
+import Layout from '../components/Layout'
 
 export default function Estiloso(){
     return(
-        <div className={styles.roxo}>
-        {/* Cria um link de retorno par ao index */}
-        <Link href="/">voltar</Link>
-        <h1>Estilo usando CSS Módulos</h1>
-
-        </div>
+        <Layout titulo="Exemplo de CSS Modularizado">
+            {/* tudo que estiver dentro do Componente Layout será referenciado por,
+            porps.children, no componente Layout.jsx */}
+            <div className={styles.roxo}>
+            <h1>Estilo usando CSS Módulos</h1>
+            </div>
+        </Layout>
     )
 }
