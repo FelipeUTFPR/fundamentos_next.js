@@ -1,0 +1,11 @@
+.roxo{
+    height: 100vh;
+    background-color: #670bbd;
+    color:#fff
+}
+/* Cuidado para referências estilos sem Classe, ocasionará erros,
+éum seletor puro deve conter pelo menos um classe ou um i,
+não posso colar um h1 dentro de arquivo module.css, ou seja, arquivos css modularizados */
+.roxo h1{
+    margin:0;
+}
