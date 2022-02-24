@@ -14,6 +14,8 @@ export default function Inicio(){
             <Navegador texto="JSX" destino="/jsx" cor="crimson"/>
             {/* quando vc criar /navegação/index ele navega para a página principal normalmente */}
             <Navegador texto="Navegação #01" destino="/navegacao" cor="green"></Navegador>
+            <Navegador texto="Navegação #02" destino="/cliente/sp-2/321" cor="blue"></Navegador>
+            
         </div>
     )
 }
